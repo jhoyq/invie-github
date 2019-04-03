@@ -7,12 +7,30 @@
       body{
         margin: 0;
       }
+
       img{
         max-width: 100%;
+        vertical-aling: top;
+      }
+
+      img#resposive{
+        display: none;
+      }
+
+      @memdia screen and (max-width: 550px){
+
+      img#resposive{
+        display: block;
+      }
+      img{
+        display: none;
+      }
+
       }
     </style>
   </head>
   <body>
+<img src="invie-responsive.webp" alt="" id="resposive">
 <img src="header.webp" alt="">
 <img src="hero.webp" alt="">
 <img src="acustica.webp" alt="">
